@@ -1,0 +1,657 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+    font-family: "Poppins", serif;
+}
+/*-----similar------*/
+#home{
+	background: black;
+	width: 100%;
+	height: 100%;
+}
+.header h1{
+	color: ghostwhite;
+	padding: 15px;
+	margin: 0px;
+	  font-family: "Gerogia", serif;
+	    
+}
+.pic:hover{
+	
+	transform: scale(1.1);
+}
+.change:after{
+	font-size: 25px;
+	font-style: italic;
+	content: "";
+	animation: naila 10s infinite linear;
+	-webkit-animation: naila 10s infinite linear;
+	-moz-animation: naila 10s infinite linear;
+	-o-animation: naila 10s infinite linear;
+	-ms-animation: naila 10s infinite linear;
+	color: cyan;
+	transition: 0.3s all;
+}
+@keyframes naila{
+	0%{content: "Indian bollywood lyricist and urdu poet";}
+	40%{content: "Pedagogist of urdu literature";}
+	60%{content: "Former professor of urdu language";}
+	80%{content: "Song writer";}
+	100%{content: "Painter";}
+}
+/*--Vendor prefixes for different browsers--*/
+ @-webkit-keyframes naila{
+	0%{-webkit-content: "Indian bollywood lyricist and urdu poet";}
+	40%{-webkit-content: "Pedagogist of urdu literature";}
+	60%{-webkit-content: "Former professor of urdu language";}
+	80%{-webkit-content: "Song writer";}
+	100%{-webkit-content: "Painter";}
+}
+@-moz-keyframes naila{
+	0%{-moz-content: "Indian bollywood lyricist and urdu poet";}
+	40%{-moz-content: "Pedagogist of urdu literature";}
+	60%{-moz-content: "Former professor of urdu language";}
+	80%{-moz-content: "Song writer";}
+	100%{-moz-content: "Painter";}
+}
+@-o-keyframes naila{
+	0%{-o-content: "Indian bollywood lyricist and urdu poet";}
+	40%{-o-content: "Pedagogist of urdu literature";}
+	60%{-o-content: "Former professor of urdu language";}
+	80%{-o-content: "Song writer";}
+	100%{-o-content: "Painter";}
+}
+@-ms-keyframes naila{
+	0%{-ms-content: "Indian bollywood lyricist and urdu poet";}
+	40%{-ms-content: "Pedagogist of urdu literature";}
+	60%{-ms-content: "Former professor of urdu language";}
+	80%{-ms-content: "Song writer";}
+	100%{-ms-content: "Painter";}
+}
+/*---------for large screen---------*/
+  @media only screen and (max-width:1920px){
+/*------Home section------*/
+#photo{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top:5%;
+}
+.pic img{
+	height: 250px;
+    width: 250px;
+	border-radius: 50%;
+	border: 2px solid goldenrod;
+}
+.bda{
+	color: white;
+	font-size: 30px;
+	margin-top: 5%;
+	text-shadow: 1px 1px 1px green;
+    font-family: "Times New Roman", Times, serif;
+	font-variant: small-caps;
+	word-spacing: 2px;
+	transition: 0.5s ease;
+    }
+    .bda:hover{
+    	transform: translateY(10px);
+    	color: lime;
+    }
+    .shayri{
+    	color: whitesmoke;
+    	font-size: 22px;
+        line-height: 32px;
+    	margin-top: 5%;
+    	word-spacing: 2px;
+    }
+    .intro{
+    	margin-top: 15%;
+    }
+    .intro h5{
+    	color:lightcyan;
+    	font-size: 28px;
+    	text-shadow: 1px 1px 1px blue;
+    	margin:10px;
+    	}
+    .intro p{
+    	color: white;
+    	text-shadow: 1px 1px 1px maroon;
+    	font-size: 25px;
+    	padding: 20px;
+    	word-spacing: 2px;
+    	line-height: 32px;
+    	font-family: "Lucida Grande", sans-serif;
+
+    }
+    /*--------Biography-------*/
+    #biography h2{
+    	font-size: 30px;
+    	word-spacing: 1px;
+    	font-weight: bold;
+    	color: darkblue;
+    	text-shadow: 1px 1px 1px cyan;
+    	margin: 10px;
+    	padding: 10px;
+    	font-family: "Times New Roman", Times, serif;
+        font-variant: small-caps;
+    }
+    #biography p{
+    	font-size: 25px;
+    	margin: 5px;
+    	padding: 2%;
+    	line-height: 32px;
+    	word-spacing: 2px;
+    	color: black;
+    	text-shadow: 1px 1px 1px maroon;
+    }
+   #biography span{
+    	font-size: 28px;
+    	color: black;
+    	font-weight: bold;
+    	margin-left: 20px;
+    	text-shadow: 1px 1px 1px cyan;
+    }
+    /*------poetry/shayri, songs------*/
+    #hero{
+    	background-image: linear-gradient(140deg,cyan,pink,aqua);
+    	background-size: 300% 300%;
+    	animation: shine 12s ease-in-out infinite;
+    }
+    @keyframes shine{
+    	0%{
+    		background-position: 0 50%;
+    	}
+    	50%{
+    		background-position: 100% 50%;
+    	}
+    	100%{
+    		background-position: 0 50%;
+    	}
+    	
+    }
+    #hero h2{
+    	font-size: 30px;
+    	word-spacing: 1px;
+    	font-weight: bold;
+    	color: maroon;
+    	text-shadow: 1px 1px 1px black;
+    	margin: 10px;
+    	padding: 10px;
+    	font-family: "Times New Roman", Times, serif;
+        font-variant: small-caps;
+       }
+       .rht{
+       	font-size: 28px;
+       	margin: 10px;
+    	color: crimson;
+    	font-weight: bold;
+    	margin-left: 20px;
+    	text-shadow: 1px 1px 1px #00004d;
+       }
+       #hero  p{
+       	font-size: 25px;
+       	padding: 30px;
+       	color: black;
+       	font-weight: bold;
+       	font-style: italic;
+       	text-shadow: 1px 1px 1px #002366;
+       	word-spacing:2px;
+        letter-spacing: 1px;
+       	line-height:32px;
+       }
+       #footer{
+       	color:lightcyan;
+       	background: black;
+       	font-size: 25px;
+       	padding: 20px;
+       	
+       }
+       #footer p{
+       	text-shadow: 1px 1px 1px maroon;
+        font-family: "Trebuchet MS",Helvetica,sans-serif;
+      }
+      #footer a{
+      	color:cyan;
+      	margin: 2px;
+      }
+  }
+       @media only screen and (max-width:1024px){
+       	#photo{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top:5%;
+}
+.pic img{
+	height: 200px;
+    width: 200px;
+	border-radius: 50%;
+	border: 2px solid green;
+	transform: scale();
+	cursor: pointer;
+	transition: 0.5s ease;
+}
+.pic:hover{
+	
+	transform: scale(1.1);
+}
+.bda{
+	color: white;
+	font-size: 25px;
+	margin-top: 5%;
+	text-shadow: 1px 1px 1px darkblue;
+    font-family: "Times New Roman", Times, serif;
+	font-variant: small-caps;
+	word-spacing: 2px;
+	transition: 0.5s ease;
+    }
+    .bda:hover{
+    	transform: translateY(10px);
+    	color: lime;
+    }
+    .shayri{
+    	color: whitesmoke;
+    	font-size: 20px;
+    	margin-top: 5%;
+    	word-spacing: 2px;
+    }
+    .intro{
+    	margin-top: 10%;
+    }
+    .intro h5{
+    	color:lightcyan;
+    	font-size: 25px;
+    	text-shadow: 1px 1px 1px blue;
+    	margin:10px;
+    	}
+    .intro p{
+    	color: white;
+    	text-shadow: 1px 1px 1px maroon;
+    	font-size: 22px;
+    	padding: 20px;
+    	word-spacing: 2px;
+    	line-height: 32px;
+    	font-family: "Lucida Grande", sans-serif;
+
+    }
+    /*--------Biography-------*/
+    #biography h2{
+    	font-size: 30px;
+    	word-spacing: 1px;
+    	font-weight: bold;
+    	color: maroon;
+    	text-shadow: 1px 1px 1px cyan;
+    	margin: 10px;
+    	padding: 10px;
+    	font-family: "Times New Roman", Times, serif;
+        font-variant: small-caps;
+    }
+    #biography p{
+    	font-size: 22px;
+    	margin: 5px;
+    	padding: 2%;
+    	line-height: 32px;
+    	word-spacing: 2px;
+    	color: #00004d;
+    	text-shadow: 1px 1px 1px black;
+    }
+    #biography span{
+    	font-size: 28px;
+    	color: black;
+    	font-weight: bold;
+    	margin-left: 20px;
+    	text-shadow: 1px 1px 1px magenta;
+    }
+        /*------poetry/shayri, songs------*/
+    #hero{
+    	background-image: linear-gradient(140deg,lime,skyblue,#99EDC3);
+    	background-size: 300% 300%;
+    	animation: shine 12s ease-in-out infinite;
+    }
+    @keyframes shine{
+    	0%{
+    		background-position: 0 50%;
+    	}
+    	50%{
+    		background-position: 100% 50%;
+    	}
+    	100%{
+    		background-position: 0 50%;
+    	}
+    	
+    }
+    #hero h2{
+    	font-size: 28px;
+    	word-spacing: 1px;
+    	font-weight: bold;
+    	color: #00004d;
+    	text-shadow: 1px 1px 1px black;
+    	margin: 10px;
+    	padding: 10px;
+    	font-family: "Times New Roman", Times, serif;
+        font-variant: small-caps;
+       }
+              .rht{
+       	font-size: 25px;
+       	margin: 10px;
+    	color: #800000;
+    	font-weight: bold;
+    	margin-left: 20px;
+    	text-shadow: 1px 1px 1px #00004d;
+       }
+       #hero  p{
+       	font-size: 22px;
+       	padding: 30px;
+       	color: black;
+       	font-weight: bold;
+       	font-style: italic;
+       	text-shadow: 1px 1px 1px #002366;
+       	word-spacing:1px;
+        letter-spacing: normal;
+       	line-height:35px;
+       }
+       /*--------footer-----------*/
+       #footer{
+       	color:lightcyan;
+       	background: black;
+       	font-size: 20px;
+       	padding: 20px;
+       	
+       }
+       #footer p{
+       	text-shadow: 1px 1px 1px maroon;
+        font-family: "Trebuchet MS",Helvetica,sans-serif;
+      }
+       }
+
+@media only screen and (min-width:701px) and (max-width:900px){
+/*------Home section------*/
+
+#home{
+	background: black;
+	width: 100%;
+	height: 100%;
+}
+.header h1{
+	color: ghostwhite;
+	padding: 20px;
+	margin: 0px;
+	  font-family: "Gerogia", serif;
+	    
+}
+.change:after{
+	font-size: 28px;
+	font-style: italic;
+	content: "";
+	animation: naila 10s infinite linear;
+	color: cyan;
+	transition: 0.3s all;
+}
+#photo{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+     margin: 5px;
+	padding: 10px;
+	text-align: center;
+	align-items: center;
+	margin-top:5%;         
+}
+.pic img{
+	height: 250px;
+    width: 250px;
+	border-radius: 50%;
+	border: 2px solid white;
+	margin: 5px;
+	padding: 10px;
+	transition: 0.5s ease;
+}
+.pic img:hover{
+	transform: scale(1.1);
+}
+.bda{
+	color: white;
+	font-size: 32px;
+	margin: 10px;
+	padding: 5px;
+	margin-top: 5%;
+	text-shadow: 1px 1px 1px green;
+    font-family: "Times New Roman", Times, serif;
+	font-variant: small-caps;
+	word-spacing: 2px;
+	transition: 0.5s ease;
+    }
+    .bda:hover{
+    	transform: translateY(10px);
+    	color: lime;
+    }
+    .shayri{
+    	color: whitesmoke;
+    	font-size: 20px;
+        line-height: 32px;
+        margin: 10px;
+    	margin-top: 5%;
+    	word-spacing: 2px;
+    }
+    .intro{
+    	margin-top: 15%;
+    }
+    .intro h5{
+    	color:lightcyan;
+    	font-size: 28px;
+    	text-shadow: 1px 1px 1px blue;
+    	margin:10px;
+    	}
+    .intro p{
+    	color: white;
+    	text-shadow: 1px 1px 1px maroon;
+    	font-size: 26px;
+    	padding: 12px;
+    	margin: 22px;
+
+    	
+    	word-spacing: 2px;
+    	line-height: 35px;
+    	font-family: "Lucida Grande", sans-serif;
+
+    }
+} 
+        @media only screen and (max-width:700px){
+        	.header h1{
+	color: ghostwhite;
+	padding: 15px;
+	margin: 0px;
+	  font-family: "Gerogia", serif;
+	    
+}
+.change:after{
+	font-size: 20px;
+	font-style: italic;
+	content: "";
+	animation: naila 10s infinite linear;
+	color: cyan;
+	transition: 0.3s all;
+}
+       	#photo{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.pic img{
+	height: 200px;
+    width: 200px;
+    margin: 5px;
+	border-radius: 50%;
+	border: 2px solid #00004d;
+	transition: 0.5s ease;
+}
+.pic img:hover{
+	transform: scale(0.8);
+}
+.bda{
+	color: white;
+	font-size: 22px;
+	text-align: center;
+	margin-top: 5%;
+	margin: 15px;
+	padding: 20px;
+	text-shadow: 1px 1px 1px blue;
+	transition: 0.5s ease;
+   word-spacing: 1px;
+    }
+    .bda:hover{
+    	transform: translateY(10px);
+    	  font-family: "Poppins", sans-serif;
+    	color: cyan;
+    }
+        .shayri{
+    	color: whitesmoke;
+    	font-size: 18px;
+    	text-align: center;
+    	margin: 10px;
+    	padding: 10px;
+        line-height: 25px;
+        font-style: italic;
+    	margin-top: 5%;
+    	
+    }
+    .intro{
+    	margin-top: 15%;
+    }
+    .intro h5{
+    	color:lightcyan;
+    	font-size: 25px;
+    	text-shadow: 1px 1px 1px blue;
+    	margin:15px;
+    	}
+    .intro p{
+    	color: lightcyan;
+    	text-align: left;
+    	text-shadow: 1px 1px 1px coral;
+    	font-weight: 100;
+    	font-size: 22px;
+    	padding: 20px;
+    	word-spacing: 2px;
+    	line-height: 32px;
+    	font-family: "Lucida Grande", sans-serif;
+
+    }
+        /*--------Biography-------*/
+    #biography h2{
+    	font-size: 28px;
+    	word-spacing: 1px;
+    	font-weight: bold;
+    	color:  #00004d;
+    	text-shadow: 1px 1px 1px black;
+    	margin: 10px;
+    	padding: 10px;
+    	font-family: "Times New Roman", Times, serif;
+        font-variant: small-caps;
+    }
+    #biography p{
+    	font-size: 22px;
+    	text-align: center;
+    	margin: 10px;
+    	padding: 2%;
+    	font-family: "Trebuchet MS",Helvetica,sans-serif;
+    	line-height: 32px;
+    	word-spacing: 2px;
+    	color: black;
+    	text-shadow: 1px 1px 1px dimgray;
+    }
+   #biography span{
+    	font-size: 25px;
+    	text-align: center;
+    	color: black;
+    	font-weight: bold;
+    	/*margin-left: 20px;*/
+    	text-shadow: 1px 1px 1px cyan;
+    }
+    /*------poetry/shayri, songs------*/
+    #hero{
+    	background-image: linear-gradient (140deg,blue,pink,lightgreen);
+    	                /*: linear-gradient(140deg,lime,skyblue,#99EDC3);*/
+    	background-size: 300% 300%;
+    	animation: shine 12s ease-in-out infinite;
+    }
+    @keyframes shine{
+    	0%{
+    		background-position: 0 50%;
+    	}
+    	50%{
+    		background-position: 100% 50%;
+    	}
+    	100%{
+    		background-position: 0 50%;
+    	}
+    	
+    }
+    #hero h2{
+    	font-size: 22px;
+    	word-spacing: 1px;
+    	font-weight: bold;
+    	color: blue;
+    	text-shadow: 1px 1px 1px black;
+    	margin: 10px;
+    	padding: 10px;
+    	font-family: "Times New Roman", Times, serif;
+        font-variant: small-caps;
+       }
+       .rht{
+       	font-size: 25px;
+       	text-align: left;
+       	margin: 10px;
+    	color: maroon;
+    	font-weight: bold;
+    	margin-left: 20px;
+    	text-shadow: 1px 1px 1px #00004d;
+       }
+       #hero  p{
+       	font-size: 20px;
+       	text-align: center;
+       	padding: 30px;
+       	color: black;
+       	font-weight: bold;
+       	font-style: italic;
+       	text-shadow: 1px 1px 1px #002366;
+       	word-spacing:normal;
+        letter-spacing: 1px;
+       	line-height:32px;
+       }
+              /*--------footer-----------*/
+       #footer{
+       	color:ghostwhite;
+       	background: black;
+       	font-size: 15px;
+       	padding: 20px;
+       	
+       }
+       #footer p{
+       	text-shadow: 1px 1px 1px maroon;
+        font-family: "Trebuchet MS",Helvetica,sans-serif;
+      }
+      #footer a{
+      	color:aqua;
+      	margin: 2px;
+      }
+       } 
+
+  @media only screen and (max-width:400px){
+        	.header h1{
+	color: ghostwhite;
+	padding: 15px;
+	margin: 0px;
+	  font-family: "Gerogia", serif;
+	    
+}
+.change:after{
+	font-size: 18px;
+	font-style: italic;
+	content: "";
+	animation: naila 10s infinite linear;
+	color: cyan;
+	transition: 0.3s all;
+}
