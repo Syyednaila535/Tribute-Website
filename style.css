@@ -155,7 +155,7 @@
     }
     /*------poetry/shayri, songs------*/
     #hero{
-    	background-image: linear-gradient(140deg,cyan,pink,aqua);
+    	background-image: linear-gradient(140deg,pink,aqua);
     	background-size: 300% 300%;
     	animation: shine 12s ease-in-out infinite;
     }
